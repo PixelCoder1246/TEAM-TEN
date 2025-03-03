@@ -1,0 +1,73 @@
+.body-5 {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #3b444b;
+    padding: 15px;
+}
+
+.body-5-header {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    text-shadow: .1em .2em 0 hsl(0, 0%, 0%);
+}
+
+.follow-div {
+    width: 800px;
+    height: auto;
+    background: linear-gradient(45deg,#3040f4,rgb(178, 90, 255),#3040f4);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.follow-div h2 {
+    text-shadow: .1em .2em 0 hsl(0, 0%, 0%);
+}
+
+.follow-div span {
+    font-size: 1rem;
+    font-weight: 400;
+    border: 2px solid rgb(51, 51, 51);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.body-5-btn {
+    margin: auto;
+    width: 170px;
+    padding: 20px 20px;
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+    border-radius: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-block;
+    color: #fff;
+    border: 3px solid #000000;
+    background-image: -webkit-linear-gradient(30deg, #c266d3 50%, transparent 50%);
+    background-image: linear-gradient(30deg, #7300d1 50%, transparent 50%);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+}
+
+
+.body-5-btn:hover {
+    background-color: rgb(240, 248, 255);
+    transition: all 0.5s ease;
+    background-position: 100%;
+    color: #b800d8;
+}
